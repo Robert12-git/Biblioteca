@@ -2,7 +2,7 @@ CIUREA Robert-Mihai - 313CBb
 110/135
                     Tema3 SD - Biblioteca online
 
-    Scopul programuluiu il constituie implementarea unei biblioteci online,
+Scopul programuluiu il constituie implementarea unei biblioteci online,
 folosindu-ne de arbori de prefixe ca structura de stocare de date. Astfel,
 utilizam un arbore specializat pe numele cartilor pentru a gasi locul zona
 unde urmeza sa fie stocata informatia legata de cartea recomandata spre citire.
@@ -11,14 +11,14 @@ pentru ca frunza aferenta ultimului caracter din numele autorului sa stocheze
 root-ul unui alt arbore care stocheaza toate cartile autorului, calea fiind data
 de numele cartii si frunza finala stocand informatiile legate de carte.
 
-    In vederea implementarii programului, au fost necesare o serie de functii
+In vederea implementarii programului, au fost necesare o serie de functii
 utilitare menite sa permita realizarea operatiilor pe trie-uri, precum: adaugare
 de elemente, cautare de elemente in vederea prelucrarii acestora si afisarea de
 elemente. Fisierul trie.c se ocupa de stocarea surselor functiilor operationale,
 in timp ce headerul prezinta apelurilor functiilor pentru a putea fi utilizate
 in intreg programul.
 
-    trie.c:
+trie.c:
     * functia char_int permite conversia unui caracter in valoare intreaga,
     pentru a fi folista in parcurgerea trie-urilor, tinand cont ca calea de
     parcurgere a unui trie este bazat pe avansarea caracter cu caracter, a fost
@@ -63,11 +63,11 @@ in intreg programul.
     a trie-ului astfel incat sa se ajunga la nodurile cu informatie. Aceasta metoda
     garanteaza faptul ca elementele gasite sunt in ordine alfabetica.
 
-    Principalele functii care se ocupa de indeplinirea principalelor operatii
+Principalele functii care se ocupa de indeplinirea principalelor operatii
 ce au loc intr-un dictionar online se afla in fisierul utils.c, cu antetele de
 functie in utils.h
 
-    utils.c:
+utils.c:
     *functia check_tilda este extremd e importanta intrucat ajuta la separarea
     comenzilor utilitare. Comenzile care intra in categoria auto-complete
     au linia din care fac parte comenzile citite terminata in tilda, spre
@@ -131,7 +131,7 @@ functie in utils.h
     tastatura se incearca identificarea a maxim 3 carti scrise de acest autor
     care corespund prefixului dat drept cheie.
 
-    Functionalitatea programului este asigurata de main-ul programului in care
+Functionalitatea programului este asigurata de main-ul programului in care
 pe baza mai multor structuri decizionale se face idenntificarea functiilor ce
 sunt necesare a fi apelate in scopul realizarii task-urilor aferente
 dictionarului online.
